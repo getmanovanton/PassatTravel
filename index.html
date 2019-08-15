@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passat Travel</title>
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<header>
+    <div class="communication">
+        <div id="passat"><img class="center" src="images/header/лого%20без.png" alt="Passat Travel">
+            <h1>ПАССАТ ТРЕВЕЛ</h1>
+            <p>Туроператор с 2012 года</p>
+            <p>РТО 008632</p>
+        </div>
+        <div class="offices">
+            <h1>Офис в Москве</h1>
+            <p id="colornumb"><img src="images/header/call.png" alt="phone"> (495)115-5218</p>
+            <p><img src="images/header/place.png" alt="place"> м.Строгино</p>
+            <p><img src="images/header/email.png" alt="email"> order@pastravel.ru</p>
+        </div>
+        <div class="offices">
+            <h1>Офис в Санкт-Петербурге</h1>
+            <p><img src="images/header/call.png" alt="phone"> (812)649-4600,677-3793</p>
+            <p><img src="images/header/place.png" alt="place"> м.Маяковская</p>
+            <p><img src="images/header/email.png" alt="email"> info@pastravel.ru</p>
+        </div>
+        <div class="offices">
+            <h1>Связаться в один клик</h1>
+            <div class="communicationLinks">
+                <div class="whatsapp">
+                <p>WhatsApp</p>
+                <a href="https://www.whatsapp.com/?lang=uk">
+                    <img class="center" src="images/header/whatsapp.png" alt="whatsapp">
+                </a>
+                </div>
+                <div class="viber">
+                <p>Viber</p>
+                <a href="https://www.viber.com/ru/">
+                    <img src="images/header/viber.png" alt="viber">
+                </a>
+                </div>
+                <div class="skype">
+                <p>Skype</p>
+                <a href="https://www.skype.com/ru/get-skype/">
+                    <img src="images/header/skype.png" alt="skype">
+                </a>
+                </div>
+            </div>
+            <a href="#">О компании</a>
+            <a href="#">Как нас найти</a>
+        </div>
+    </div>
+</header>
+<div class="search">
+    <div>
+        <p><label for="count">Страна</label></p>
+        <select id="count">
+            <option>Китай</option>
+        </select>
+    </div>
+    <div>
+        <p><label for="pacTour">Даты тура</label></p>
+        <select id="pacTour">
+            <option>Пакетный тур</option>
+        </select>
+    </div>
+    <div>
+        <p><label for="date">Даты тура</label></p>
+        <input id="date" value="10.12.2019 - 15.12.2019">
+    </div>
+    <div id = btnSearchBlock>
+        <button id="btnSearch">Найти</button>
+    </div>
+</div>
+<section class="main">
+    <nav class="navigaton">
+        <input id="siteSearsch" placeholder="Поиск по сайту">
+        <div class="lists">
+            <div class="listCountryes"><h1>Азия</h1></div>
+            <ul>
+                <li><span>Бали</span></li>
+                <li><span>Вьетнам</span></li>
+                <li><span>Гонконг</span></li>
+                <li><span>Индия</span></li>
+                <li><span>Китай</span></li>
+                <li><span>Макао</span></li>
+                <li><span>Мальдивы</span></li>
+                <li><span>Мьянма</span></li>
+                <li><span>Непал</span></li>
+                <li><span>Таиланд</span></li>
+                <li><span>Сингапур</span></li>
+                <li><span>ЮжнаяКорея</span></li>
+                <li><span>Япония</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Ближний Восток</h1></div>
+            <ul>
+                <li><span>ОАЭ</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Америка</h1></div>
+            <ul>
+                <li><span>Куба</span></li>
+                <li><span>Мексика</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Африка</h1></div>
+            <ul>
+                <li><span>Маврикий</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Карибы</h1></div>
+            <ul>
+                <li><span>Общая информация</span></li>
+                <li><span>Аруба</span></li>
+                <li><span>Антигуа</span></li>
+                <li><span>Барбадос</span></li>
+                <li><span>Кюрасао</span></li>
+                <li><span>Сен-Бартс</span></li>
+                <li><span>Сен-Мартен</span></li>
+                <li><span>Сен-Лусия</span></li>
+                <li><span>Ямайка</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Южная Америка</h1></div>
+            <ul>
+                <li><span>Экскурсионные туры</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Европа</h1></div>
+            <ul>
+                <li><span>Греция</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Детский отдых</h1></div>
+            <ul>
+                <li><span>Детские лагеря, школьные каникулы</span></li>
+            </ul>
+            <div class="listCountryes"><h1>Свадебные туры</h1></div>
+            <ul>
+                <li><span>Готовые идеи свадьбы за границей</span></li>
+            </ul>
+        </div>
+        <aside class="lists" id="SPO">
+            <div class="Spo"><p>СПО</p></div>
+            <div class="spotext">
+                <h1>Рассылка акционных туров</h1>
+                <p>Все лучшие акционные туры и путешествия будут приходить в ваш почтовый ящик.</p>
+                <input id="InpEmail" type="text" placeholder="Ваш E-mail*">
+            </div>
+                <div class="inputConfirm">
+                    <input id="InpConfirm" type="checkbox">
+                    <label for="InpConfirm">Я согласен с политикой конфиденциальности</label>
+                </div>
+                <button>Подписаться</button>
+        </aside>
+        <div class="cards"><img src="images/mainBlock/cards.png" alt="cards"></div>
+    </nav>
+    <div class="countainer">
+        <div class="col1">
+    <div class="countryImages"><img src="images/mainBlock/Китай.png"><p>Китай</p></div>
+    <div class="countryImages"><img src="images/mainBlock/япония.png"><p>Япония</p></div>
+    <div class="countryImages"><img src="images/mainBlock/индия.png"><p>Индия</p></div>
+    <div class="countryImages"><img src="images/mainBlock/дети.png"><p>Детский отдых</p></div>
+        </div>
+        <div class="col2">
+    <div class="countryImages"><img src="images/mainBlock/гонгконг.png"><p>Гонконг</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Тайвань.png"><p>Тайвань</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Макао.png"><p>Макао</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Индонезия.png"><p>Индонезия</p></div>
+        </div>
+        <div class="col3">
+        <div class="countryImages"><img src="images/mainBlock/стамбул.png"><p>Турция</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Мьянма.png"><p>Мьянма</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Непал.png"><p>Непал</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Сингапур.png"><p>Сингапур</p></div>
+        </div>
+        <div class="col4">
+            <div class="countryImages"><img src="images/mainBlock/Южная%20Корея.png"><p>Южная Корея</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Вьетнам.png"><p>Вьетнам</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Таиланд.png"><p>Таиланд</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Маврикий.png"><p>Маврикий</p></div>
+        </div>
+        <div class="col5">
+            <div class="countryImages"><img src="images/mainBlock/Куба.png"><p>Куба</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Мексика.png"><p>Мексика</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Карибы2.png"><p>Карибы</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Южн%20Америка.png"><p id="amerika">Экскурсионные туры<br> в Южную Америку</p></div>
+        </div>
+        <div class="col6">
+            <div class="countryImages"><img src="images/mainBlock/Греция.png"><p>Греция</p></div>
+    <div class="countryImages"><img src="images/mainBlock/ОАЭ.png"><p>ОАЭ</p></div>
+    <div class="countryImages"><img src="images/mainBlock/Мальдивы.png"><p>Мальдивы</p></div>
+    <div class="countryImages"><img src="images/mainBlock/свадебные%20туры.png"><p>Свадебные туры</p></div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footerNav">
+    <div>
+        <p id="cartSite2">2019 &copy;Passat.travel</p>
+        <a id="cartSite" href="#">Карта сайта</a>
+    </div>
+    <div class="footerNav2">
+        <div><a href="#">На главную</a></div>
+        <div><a href="#">О нас</a></div>
+        <div><a href="#">Агенствам</a></div>
+        <div><a href="#">Туристам</a></div>
+        <div><a href="#">Контакты</a></div>
+    </div>
+    <div>
+        <a href="https://mail.ru/"><img src="images/header/email.png" alt="email">info@pastravel.ru</a>
+    </div>
+    <div>
+       <a href="#"><img src="images/footer/счетчик.png"></a>
+    </div>
+    </div>
+    <div class="rusTour"><img src="images/footer/ростуризм.png" alt="RUStour"></div>
+</footer>
+</body>
+</html>

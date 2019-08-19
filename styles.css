@@ -48,7 +48,7 @@ input{
 }
 header{
     background: url("images/header/beach.png") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .communication{
     display: flex;
@@ -177,7 +177,6 @@ header{
 }
 .main{
     display: flex;
-    justify-content: space-between;
     padding: 28px 35px 0 26px;
 }
 
@@ -239,7 +238,10 @@ li span{
     justify-content: space-between;
     margin-bottom: 15px;
 }
-.countainer{width: 1090px}
+.countainer{
+    padding-left: 26px;
+    width: 1090px
+}
 
 .countainer div{
     height: 211px;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
+<div class="wrapper">
 <header>
     <div class="communication">
         <div id="passat"><img class="center" src="images/header/лого%20без.png" alt="Passat Travel">
@@ -56,19 +57,19 @@
     </div>
 </header>
 <div class="search">
-    <div>
+    <div class="selectTour">
         <p><label for="count">Страна</label></p>
         <select id="count">
             <option>Китай</option>
         </select>
     </div>
-    <div>
+    <div class="selectTour">
         <p><label for="pacTour">Даты тура</label></p>
         <select id="pacTour">
             <option>Пакетный тур</option>
         </select>
     </div>
-    <div>
+    <div class="selectData">
         <p><label for="date">Даты тура</label></p>
         <input id="date" value="10.12.2019 - 15.12.2019">
     </div>
@@ -78,7 +79,7 @@
 </div>
 <section class="main">
     <nav class="navigaton">
-        <input id="siteSearsch" placeholder="Поиск по сайту">
+        <div class="searchSite"><input id="siteSearsch" placeholder="Поиск по сайту"></div>
         <div class="lists">
             <div class="listCountryes"><h1>Азия</h1></div>
             <ul>
@@ -214,5 +215,6 @@
     </div>
     <div class="rusTour"><img src="images/footer/ростуризм.png" alt="RUStour"></div>
 </footer>
+</div>
 </body>
 </html>

@@ -40,20 +40,24 @@ a{
     text-decoration: none;
 }
 .wrapper {
+    max-width: 1349px;
     margin: 0 auto;
 }
-
-.communication{
+input{
+    outline: none;
+}
+header{
     background: url("images/header/beach.png") no-repeat;
     background-size: 100%;
+}
+.communication{
     display: flex;
     justify-content: space-between;
-    padding-left: 85px;
-    padding-right: 73px;
-    padding-bottom: 10px;
+    max-width: 1191px;
+    margin: 0 auto;
 }
 #passat{
-    padding-top: 6px;
+    padding: 6px 0;
 }
 
 
@@ -104,14 +108,14 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 32px 26px 40px;
+    padding: 13px 32px 22px 40px;
     background-color: #0e93cb;
 }
 .search p{
     font-family: MuseoCyrl100,sans-serif;
     font-size: 13px;
     padding-left: 21px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 .search select{
     font-family: MuseoCyrl100,sans-serif;
@@ -123,10 +127,20 @@ a{
     border: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background: url("images/search/noun_Arrow_2531687 копия.png");
-    background-repeat: no-repeat;
-    background-color: #FFFFFF;
-    background-position: 288px center;
+}
+.selectTour{
+    position: relative;
+}
+.selectTour:before{
+    position: absolute;
+    content: '';
+    background-image: url("images/search/noun_Arrow_2531687 копия.png");
+    width: 7px;
+    height: 13px;
+    display: block;
+    bottom: 13px;
+    right: 20px;
+
 }
 .search input{
     font-family: MuseoCyrl100,sans-serif;
@@ -136,10 +150,19 @@ a{
     width: 275px;
     height: 36px;
     border: none;
+}
+.selectData{
+    position: relative;
+}
+.selectData:before{
+    position: absolute;
+    content: '';
     background: url("images/search/noun_Calendar_697504.png");
-    background-repeat: no-repeat;
-    background-color: #FFFFFF;
-    background-position: 15px center;
+    width: 18px;
+    height: 18px;
+    display: block;
+    bottom: 9px;
+    left: 14px;
 }
 #btnSearch{
     font-family: MuseoCyrl300,sans-serif;
@@ -153,28 +176,40 @@ a{
     padding-top: 20px;
 }
 .main{
+    display: flex;
+    justify-content: space-between;
     padding: 28px 35px 0 26px;
 }
 
 #siteSearsch{
     font-family: MuseoCyrl100 sans-serif;
     font-size: 12px;
-    background-color: #FFFFFF;
-    background: url("images/mainBlock/noun_Search_2535698.png");
-    background-repeat: no-repeat;
-    background-position: 147px center;
     width: 177px;
     height: 36px;
     border-radius: 30px;
     border: 1px solid #6a6a6a;
     padding-left: 27px;
 }
+.searchSite{
+    position: relative;
+}
+.searchSite:before{
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: block;
+    bottom: 10px;
+    right: 15px;
+    background: url("images/mainBlock/noun_Search_2535698.png");
+}
 .lists{
     margin-left: 4px;
     margin-top: 20px;
     background-color: #f8f8f8;
     max-width: 170px;
-    height: 1045px;
+    border-radius: 5px;
+    padding-bottom: 16px;
 }
 .listCountryes{
     width: 170px;
@@ -189,7 +224,6 @@ a{
     padding-top: 7px;
 }
 ul{
-    margin: 9px 0 19px;
     padding-left: 27px;
 }
 li{
@@ -200,17 +234,13 @@ li{
 li span{
     color: #000000;
 }
-.navigaton{
-    float: left;
-}
-.countainer{
-    padding: 0 35px 0 203px;
-}
 .col1, .col2, .col3, .col4, .col5, .col6{
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
+.countainer{width: 1090px}
+
 .countainer div{
     height: 211px;
     text-align: center;
@@ -237,9 +267,6 @@ li span{
     border-radius: 30px;
     border: none;
     margin-left: 13px;
-}
-#SPO{
-    max-height: 310px;
 }
 .Spo{
     width: 170px;
@@ -287,10 +314,10 @@ li span{
     padding-bottom: 7px;
 }
 .cards{
-    margin: 10px 24px;
+    text-align: center;
+    padding: 10px 0 17px;
 }
 footer{
-    margin-top: 148px;
     background-color: #fff4b3;
 }
 .footerNav{

@@ -113,7 +113,8 @@ header{
     font-family: MuseoCyrl100,sans-serif;
     font-size: 12px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     padding: 13px 32px 22px 40px;
     background-color: #0e93cb;
@@ -135,6 +136,9 @@ header{
     -moz-appearance: none;
     -webkit-appearance: none;
 }
+.search div{
+    padding-right: 20px;
+}
 .selectTour{
     position: relative;
 }
@@ -146,7 +150,7 @@ header{
     height: 13px;
     display: block;
     bottom: 13px;
-    right: 20px;
+    right: 30px;
 
 }
 .search input{
@@ -245,7 +249,7 @@ li span{
 .countainer{
     padding-left: 26px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .countryImages{
@@ -368,6 +372,49 @@ footer{
         padding: 0 15px;
     }
 }
-@media (max-width: 1200px){
-
+@media (max-width: 950px){
+    .footerNav {
+        text-align: center;
+        display: block;
+    }
+    .footerNav2 {
+        display: block;
+        justify-content: center;
+        width: auto;
+    }
+    .rusTour {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+@media (max-width: 780px){
+    .navigaton{
+        display: none;
+    }
+}
+@media (max-width: 715px){
+    .communication {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #passat{
+        padding-right: 20px;
+    }
+    .offices{
+        padding-right: 20px;
+    }
+}
+@media (max-width: 600px) {
+ .countryImages{
+     width: 150px;
+     height: 140px;
+ }
+    .countryImages p{
+        padding-top: 11px;
+        font-size: 13px;
+    }
+.main{
+    padding-left: 0;
+    padding-right: 0;
+}
 }

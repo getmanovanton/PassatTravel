@@ -40,6 +40,7 @@ a{
     text-decoration: none;
 }
 .wrapper {
+    overflow: hidden;
     max-width: 1349px;
     margin: 0 auto;
 }
@@ -86,7 +87,7 @@ header{
 }
 .offices p{
     font-family: MuseoCyrl300,sans-serif;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 #passat p{
     font-family: MuseoCyrl100, sans-serif;
@@ -235,26 +236,25 @@ li{
     font-family: MuseoCyrl100, sans-serif;
     color: #206291;
     padding-right: 5px;
+    padding-bottom: 6px;
 }
 li span{
     color: #000000;
 }
-.col1, .col2, .col3, .col4, .col5, .col6{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
+
 .countainer{
     padding-left: 26px;
-    width: 1090px
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-.countainer div{
+.countryImages{
+    margin: 0 15px 15px 0;
+    display: block;
+    width: 233px;
     height: 211px;
     text-align: center;
     border-radius: 5px;
-}
-.countryImages{
     box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.22),
     -4px 4px 6px -1px rgba(0, 0, 0, 0.19);
 }
@@ -365,7 +365,7 @@ footer{
         height: 36px;
     }
     .communication {
-       background-size: auto;
+        padding: 0 15px;
     }
 }
 @media (max-width: 1200px){

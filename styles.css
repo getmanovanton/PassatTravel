@@ -398,7 +398,7 @@ footer{
         justify-content: center;
     }
     #passat{
-        padding-right: 20px;
+        width: 100%;
     }
     .offices{
         padding-right: 20px;
@@ -417,4 +417,21 @@ footer{
     padding-left: 0;
     padding-right: 0;
 }
+    .offices {
+        padding-top: 0;
+    }
+    .offices p{
+        padding-bottom: 5px;
+    }
+    .offices h1 {
+        padding-bottom: 5px;
+
+        font-size: 11px;
+    }
+    body{
+        font-size: 8px;
+    }
+    #ofiicesID{
+        display: none;
+    }
 }

@@ -46,6 +46,12 @@ a{
 input{
     outline: none;
 }
+button{
+    outline: none;
+}
+select{
+    outline: none;
+}
 header{
     background: url("images/header/beach.png") no-repeat;
     background-size: cover;
@@ -192,12 +198,12 @@ header{
 .searchSite{
     position: relative;
 }
-.searchSite:before{
+.searchSiteButton {
+    border: none;
+    padding: 0;
     position: absolute;
-    content: '';
     width: 16px;
     height: 16px;
-    display: block;
     bottom: 10px;
     right: 15px;
     background: url("images/mainBlock/noun_Search_2535698.png");
